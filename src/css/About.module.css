@@ -1,0 +1,51 @@
+
+.heading{
+    font-size: 2.6rem;
+}
+.heading span{
+    background: linear-gradient(#35A1D2,#0E57FF );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.left_card{
+    display: flex;
+    margin-top: 2rem;
+}
+.left_card img{
+    width: 60px;
+}
+.card_content{
+    margin-left: 2rem;
+}
+.left_card h1{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card_content p{
+    text-align: left;
+    margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 1.8rem !important;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .left{
+        width: 90% !important;
+    }
+    .right{
+        width: 0;
+        display: none;
+    }
+    .left h1{
+        font-size: 1.4rem !important;
+    }
+    .left_card img{
+        width: 50px !important;
+    }
+}

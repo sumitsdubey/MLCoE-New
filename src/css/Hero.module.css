@@ -1,0 +1,28 @@
+.text_top{
+    background: linear-gradient(to right, #699BF7,#698BF6,#663EEF, #6633EE);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;    
+}
+
+.bottom{
+    height: 40vh;
+    max-height: 50vh;
+    background: url("../images/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100vw;
+}
+
+@media (max-width:600px) {
+    h1{
+        font-size: 1.8rem !important;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .bottom{
+        height: 35vh;
+    }
+}

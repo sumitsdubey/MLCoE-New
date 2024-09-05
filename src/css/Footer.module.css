@@ -1,0 +1,29 @@
+.section_footer{
+    border-top: 1px solid #ffffff5f;
+    background: #020016;
+}
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.footer_nav a{
+    display: block;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.media img{
+    width: 30px;
+    height: 30px;
+}
+.hr_line{
+    height: 1px;
+    background: #ffffff5f;
+    margin-top: 1rem;
+}

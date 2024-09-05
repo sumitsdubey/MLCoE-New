@@ -1,0 +1,118 @@
+.top_section h1{
+    font-size: 2.6rem;
+}
+
+.top_section h1 span{
+    background: linear-gradient(#35A1D2,#0E57FF );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+
+
+.ml_layout{
+    width: 85%;
+    background: url("../images/ml_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    border-radius: 20px;
+    padding-top: 5rem;
+}
+.card_outer{
+    width: 50%;
+    margin:auto;
+    border-radius: 15px;
+    border: 1px solid #ffffff1b;
+}
+.card_mid{
+    border: 10px solid #ffffff10;
+    border-radius: 15px;
+}
+.card_inner{
+    background: #A87FFF0A;
+    border-radius: 6px;
+    border: 1px solid #ffffff1b;
+    padding: 1rem 0.6rem;
+}
+.card_inner .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 25px;
+    align-items: center;
+}
+.card_inner .top img{
+    height: 35px;
+}
+.card_inner .top p{
+    font-size: 1.3rem;
+}
+.card_inner .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 25px;
+}
+.card_inner .bottom img{
+    width: 25px;
+}
+.card_inner .bottom p{
+    text-align: left;
+}
+
+.option_btns{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -3rem;
+    gap: 1rem;
+}
+
+.option_btns .btns{
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.option_btns .btns:active{
+    opacity: 1;
+}
+
+@media (max-width:800px) {
+    .card_outer{
+        width: 80%;
+    }
+    
+    .card_inner .top p{
+        font-size: 1rem !important;
+    }
+    .ml_layout{
+        height: 50vh;
+    }
+}
+@media (max-width:500px) {
+    .card_outer{
+        width: 100%;
+    }
+    .card_inner{
+        padding: 0px;
+    }
+    .card_inner .top p{
+        font-size: 0.8rem !important;
+    }
+    .card_inner .bottom p{
+        font-size: 0.6rem !important;
+    }
+    .ml_layout{
+        height: 30vh;
+    }
+    .option_btns .btns{
+        padding: 0.2rem 0.5rem;
+        font-size: 12px;
+    }
+}
